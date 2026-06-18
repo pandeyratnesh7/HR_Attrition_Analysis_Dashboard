@@ -27,13 +27,12 @@ CREATE TABLE Employees (
     Years_since_last_promotion INT
 );
 
----- From 'File Path + \FileName + .ext'
 BULK INSERT EMPLOYEES 
 FROM 'D:\HR_Attrition_Project_SQL_BI\HR_Attrition_dataset.csv'
     WITH (
-        FIRSTROW =2,            -- OUR DATA START from 2nd Rows, 1st id HEADER
+        FIRSTROW =2,            
         FIELDTERMINATOR=',',
-        ROWTERMINATOR='\n'      -- Start from 2nd line= '\n'
+        ROWTERMINATOR='\n'      
         );
 
 Select * from Employees 
