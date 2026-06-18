@@ -4,7 +4,6 @@
 ## Dashboard Preview
 <img width="661" height="397" alt="Dashboard" src="https://github.com/user-attachments/assets/6dbc3837-0686-4376-a932-7f072e504f92" />
 
-## Background
 This Power BI project analyzes employee attrition data to identify key factors affecting employee retention. The dashboard provides insights into total employees, active employees, attrition rate, department-wise attrition, overtime impact, business travel, job satisfaction, work-life balance, salary hike, education, and job-role-level attrition.
 
 ## Tools Used
