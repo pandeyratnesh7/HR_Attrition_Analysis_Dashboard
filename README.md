@@ -1,1 +1,24 @@
-# HR_Attrition_Analysis_Dashboard
+# HR Analytics Dashboard
+
+This Power BI project analyzes employee attrition data to identify key factors affecting employee retention. The dashboard provides insights into total employees, active employees, attrition rate, department-wise attrition, overtime impact, business travel, job satisfaction, work-life balance, salary hike, education, and job-role-level attrition.
+
+## Tools Used
+
+- Power BI
+- SQL Server
+- DAX
+- CSV Dataset
+
+## Project Files
+
+- `HR_Analytics_Dashboard.pbix` - Power BI dashboard file
+- `HR_Analytics_Project_Report.pdf` - Project report
+- `data/HR_Employee_Data.csv` - Dataset
+- `sql/create_table_employees.sql` - SQL table creation script
+- `sql/insert_employee_records.sql` - SQL insert records script
+- `dax/dax_measures.txt` - DAX measures
+- `images/dashboard_preview.png` - Dashboard screenshot
+
+## Dashboard Preview
+
+![Dashboard Preview](images/dashboard_preview.png)
